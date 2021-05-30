@@ -5,7 +5,6 @@ div {
     display: block;
 }
 
-
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
@@ -14,6 +13,7 @@ body {
 
 .cima {
     text-align: right;
+    padding: 10px 20px;
 }
 #usuario {
     border-radius: 50%;
@@ -26,6 +26,7 @@ body {
 .meio {
     margin: 100px 50px 205px 50px;
     text-align: center;
+    width: 100%;
 }
 #campo-de-pesquisa {
     border-radius: 24px;
@@ -49,7 +50,10 @@ button {
 
 
 .baixo {
-   background:rgb(242,242,242);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:rgb(242,242,242);
 }
 #brasil{
     padding: 10px 15px;

@@ -1,0 +1,14 @@
+.cima {
+    text-align: right;
+}
+.meio {
+    position: relative;
+    text-align: center;
+}
+.baixo {
+    text-align: center;
+}
+
+.usuario {
+    border-radius: 50%;
+}

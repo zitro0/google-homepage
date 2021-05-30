@@ -24,7 +24,7 @@ body {
 
 
 .meio {
-    margin: 150px 50px 205px 50px;
+    margin: 100px 50px 205px 50px;
     text-align: center;
 }
 #campo-de-pesquisa {
@@ -49,10 +49,13 @@ button {
 
 
 .baixo {
-   background:rgba(242,242,242,1);
+   background:rgb(242,242,242);
+}
+#brasil{
+    padding: 10px 15px;
 }
 .rodape{
-    
+    padding: 15px 30px 15px 30px;
 }
 .parte-esquerda {
     float: left;

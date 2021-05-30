@@ -1,7 +1,9 @@
 a:link {
     color: black;
 }
-
+div {
+    display: block;
+}
 
 
 body {
@@ -47,12 +49,14 @@ button {
 
 
 .baixo {
-   background: 
-   margin: 200px 0 0 0;
+   background:rgba(242,242,242,1);
+}
+.rodape{
+    
 }
 .parte-esquerda {
-    text-align:left;
+    float: left;
 }
 .parte-direita {
-    text-align: right;
+    float: right;
 }

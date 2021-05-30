@@ -1,9 +1,8 @@
 a:link {
     color: black;
 }
-#english {
-    color: blue;
-}
+
+
 
 body {
     font-size: 14px;
@@ -14,28 +13,46 @@ body {
 .cima {
     text-align: right;
 }
-.usuario {
+#usuario {
     border-radius: 50%;
+}
+.app-usuario {
+    cursor: pointer;
 }
 
 
 .meio {
-    margin: 200px 50px 200px 50px;
+    margin: 150px 50px 205px 50px;
     text-align: center;
 }
-#campo_de_pesquisa {
+#campo-de-pesquisa {
     border-radius: 24px;
     border: 1px solid #dfe1e5;
     height: 44px;
     width: 584px;
 }
+button {
+    cursor: pointer;
+    border: none;
+    background:;
+    min-width: 54px;
+    height: 36px;
+    margin: 11px 4px 11px 4px;
+    padding: 0 16px 0 16px;
+}
+
+#english {
+    color: blue;
+}
+
 
 .baixo {
-    
+   background: 
+   margin: 200px 0 0 0;
 }
-.parte_esquerda {
+.parte-esquerda {
     text-align:left;
 }
-.parte_direita {
+.parte-direita {
     text-align: right;
 }

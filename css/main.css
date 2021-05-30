@@ -1,14 +1,30 @@
+a:link {
+    color: black;
+}
+#english {
+    color: blue;
+}
+
 .cima {
     text-align: right;
 }
-.meio {
-    position: relative;
-    text-align: center;
+.usuario {
+    border-radius: 50%;
 }
-.baixo {
+
+
+.meio {
+    margin: 200px 50px 200px 50px;
     text-align: center;
 }
 
-.usuario {
-    border-radius: 50%;
+
+.baixo {
+    
+}
+.parte_esquerda {
+    text-align:left;
+}
+.parte_direita {
+    text-align: right;
 }

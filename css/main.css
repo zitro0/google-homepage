@@ -1,6 +1,3 @@
-a:link {
-    color: black;
-}
 
 body {
     font-size: 14px;
@@ -17,13 +14,13 @@ body {
 .tudo-cima{
     float: right;
 }
-/*.link-cima {
+.link-cima {
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-}*/
+}
 #usuario {
     border-radius: 50%;
 }
@@ -70,7 +67,7 @@ button:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background:rgb(242,242,242);
+    background: #f2f2f2;
     color: rgba(0,0,0,.54);
     vertical-align: middle;
     height: 94px;
@@ -78,21 +75,27 @@ button:hover {
 #brasil{
     height: 50%;
 }
+hr {
+    height: 2px;
+    background-color:#dadce0;
+    border: none;
+}
 .rodape{
     height: 50%;
 }
 .parte-esquerda {
     float: left;
 }
-/*.links-esquerda {
+.links-esquerda {
     text-decoration: none;
-}*/
+    color: rgba(0,0,0,.54);
+}
 .parte-direita {
     float: right;
 }
-/*.links-direita {
+.links-direita {
     text-decoration: none;
-}*/
-a:link {
-    text-decoration: none;
+    color: rgba(0,0,0,.54);
+
 }
+

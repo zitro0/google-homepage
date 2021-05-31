@@ -1,19 +1,25 @@
 a:link {
     color: black;
 }
-div {
-    display: block;
-}
 
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .cima {
     text-align: right;
-    padding: 10px 20px;
+    width: 100%;
+    height: 48px;
+}
+.link-cima {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    text-decoration: none;
 }
 #usuario {
     border-radius: 50%;
@@ -24,7 +30,9 @@ body {
 
 
 .meio {
-    margin: 100px 50px 205px 50px;
+    position: relative;
+    top: 10px;
+    bottom: 100px;
     text-align: center;
     width: 100%;
 }
@@ -33,15 +41,21 @@ body {
     border: 1px solid #dfe1e5;
     height: 44px;
     width: 584px;
+    max-width: 80%;
 }
 button {
     cursor: pointer;
-    border: none;
-    background:;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    background-color: #f8f9fa;
     min-width: 54px;
     height: 36px;
     margin: 11px 4px 11px 4px;
     padding: 0 16px 0 16px;
+}
+button:hover {
+    border: 1px solid #dadce0; 
 }
 
 #english {
@@ -54,12 +68,15 @@ button {
     bottom: 0;
     width: 100%;
     background:rgb(242,242,242);
+    color: rgba(0,0,0,.54);
+    vertical-align: middle;
+    height: 94px;
 }
 #brasil{
-    padding: 10px 15px;
+    height: 50%;
 }
 .rodape{
-    padding: 15px 30px 15px 30px;
+    height: 50%;
 }
 .parte-esquerda {
     float: left;

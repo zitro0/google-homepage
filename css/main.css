@@ -17,12 +17,13 @@ body {
 .tudo-cima{
     float: right;
 }
-.link-cima {
+/*.link-cima {
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
     text-decoration: none;
-}
+    color: rgba(0,0,0,0.87);
+}*/
 #usuario {
     border-radius: 50%;
 }
@@ -83,6 +84,15 @@ button:hover {
 .parte-esquerda {
     float: left;
 }
+/*.links-esquerda {
+    text-decoration: none;
+}*/
 .parte-direita {
     float: right;
+}
+/*.links-direita {
+    text-decoration: none;
+}*/
+a:link {
+    text-decoration: none;
 }

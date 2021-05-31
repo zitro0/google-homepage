@@ -11,9 +11,11 @@ body {
 }
 
 .cima {
-    text-align: right;
     width: 100%;
     height: 48px;
+}
+.tudo-cima{
+    float: right;
 }
 .link-cima {
     display: inline-block;

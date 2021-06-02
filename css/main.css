@@ -9,10 +9,13 @@ body {
     height: 100vh;
     width: 100%;
 }
+nav {
+    width: 100%;
+}
 
 .cima {
-    width: 100%;
-    height: 10vh;
+    height: 16px;
+    padding: 16px 30px;
 }
 .tudo-cima{
     float: right;
@@ -30,6 +33,9 @@ body {
 .app-usuario {
     cursor: pointer;
 }
+
+
+
 .meio {
     position: relative;
     top: 10px;
@@ -99,19 +105,19 @@ button:hover {
 }
 
 
-.baixo {
+
+footer {
     position: absolute;
     bottom: 0;
     left: 0;
-  
     width: 100%;
     background: #f2f2f2;
-    color: rgba(0,0,0,.54);
-    vertical-align: middle;
-    height: 20vh;
+    color: rgba(0,0,0,.54);  
+    height: 94px;
 }
-#brasil{
-    height: 50%;
+#rodape1{
+    height: 16px;
+    padding: 15px 30px;
 }
 hr {
     margin: 0;
@@ -119,8 +125,9 @@ hr {
     background-color:#dadce0;
     border: none;
 }
-.rodape{
-    height: 50%;
+.rodape2{
+    height: 17px;
+    padding: 15px 30px;
 }
 .parte-esquerda {
     float: left;

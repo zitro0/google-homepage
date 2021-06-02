@@ -1,15 +1,18 @@
+a:hover, a:active {
+    text-decoration: underline;
+}
 
 body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: #222;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100vh;
+    width: 100%;
 }
 
 .cima {
     width: 100%;
-    height: 48px;
+    height: 10vh;
 }
 .tudo-cima{
     float: right;
@@ -27,14 +30,13 @@ body {
 .app-usuario {
     cursor: pointer;
 }
-
-
 .meio {
     position: relative;
     top: 10px;
     bottom: 100px;
     text-align: center;
-    width: 100vw;
+    width: 100%;
+    height: 70vh;
 }
 #barra-img {
     position: relative;
@@ -100,17 +102,20 @@ button:hover {
 .baixo {
     position: absolute;
     bottom: 0;
+    left: 0;
+  
     width: 100%;
     background: #f2f2f2;
     color: rgba(0,0,0,.54);
     vertical-align: middle;
-    height: 94px;
+    height: 20vh;
 }
 #brasil{
     height: 50%;
 }
 hr {
-    height: 2px;
+    margin: 0;
+    height: 1px;
     background-color:#dadce0;
     border: none;
 }

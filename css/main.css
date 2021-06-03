@@ -61,6 +61,9 @@ main {
     width: 584px;
     max-width: 80%;
 }
+#barra-img:hover, #barra-img:focus-within{
+    box-shadow: 1px 1px 4px 4px rgba(0,0,0,0.1);
+}
 #lupa {
     position: absolute;
     left: 15px;
@@ -75,6 +78,9 @@ main {
     height: 42px;
     width: 480px;
     border: none;
+}
+#campo-de-pesquisa:focus-visible {
+    outline: none;
 }
 #keyboard{
     position: absolute;

@@ -20,13 +20,12 @@ nav {
     padding-bottom: 8px;
 }
 .tudo-cima a {
-    display: inline-block;
+    position: relative;
+    bottom: 11px;
+    margin-right: 10px;
     text-decoration: none;
     color: rgba(0,0,0,0.87);
-    margin-bottom: 10px;
-    margin-top: 10px;
-    vertical-align: bottom;
-    margin-right: 10px;
+    
 }
 #app {
     margin-bottom: 3px;
